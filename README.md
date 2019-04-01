@@ -1,2 +1,1 @@
-# instagram_photo_downloader
-Instagram photo download from post
+It is Downloader which will help you to download images,videos or music from any site.
