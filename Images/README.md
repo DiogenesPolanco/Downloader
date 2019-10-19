@@ -1,0 +1,1 @@
+# In this folder you download the photos of the searches you do with GoogleImageSearch.
