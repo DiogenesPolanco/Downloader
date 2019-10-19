@@ -4,7 +4,10 @@ require 'json'
 Search = Google::Apis::CustomsearchV1
 search_client = Search::CustomsearchService.new
 search_client.key = 'put your client key'
-response = search_client.list_cses('Hello wold', {cx: 'put your Search engine ID'})
+
+puts "Please type the word you want to search on google?"
+
+response = search_client.list_cses(gets.chomp, {cx: 'put your Search engine ID'})
 body = response
   
 images = [] 
